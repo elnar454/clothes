@@ -1,0 +1,102 @@
+body {
+    font-family: sans-serif;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color:#A43DD4;
+}
+
+
+.button {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+    background-color: #F9FE40;
+}
+
+
+nav {
+    border-top: 5px solid #A43DD4;
+    border-bottom: 5px solid #A43DD4;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+.nav-link:hover{
+   font-weight: bolder;
+    padding: 5px;
+    }
+    
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    margin-left: 69px;
+    text-shadow:  -10px 10px 10px #4C036E ;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #F9FE40;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+    width: auto;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+.address::before{
+    content: url(https://mars.algoritmika.org/uploads/2021/03/home_0_1616091816.svg);
+    margin-right: 10px;
+}
+.tel::before{
+    content: url(https://mars.algoritmika.org/uploads/2021/03/tel_0_1616091817.svg);
+    margin-right: 10px;
+}
+
+.footer{
+    width: 100%;
+}
+
+.man {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.man1 {
+    width: 300px;
+}
+
+.grizli-text {
+font-weight: normal;
+font-size: 20px;
+}
